@@ -2,5 +2,12 @@
   <div class="container">
     <h1>Hello my name is __</h1>
     <p>I make Rails apps.</p>
+
+    <% @clothes.each do |item| %>
+<div class='clothes'>
+  <p class='content'><%= item.description %></p>
+  <p class='time'>$<%= item.price %></p>
+</div>
+<%end%>
   </div>
 </div>

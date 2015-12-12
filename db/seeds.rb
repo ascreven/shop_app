@@ -6,4 +6,4 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 Item.destroy_all
-shirts = Item.create([{price: 20, description: 'red', type: 'shirt', quantity: 40}]);
+clothes = Item.create([{price: 20, description: 'red', quantity: 40}]);

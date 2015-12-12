@@ -55,6 +55,9 @@ Rails.application.routes.draw do
   #   end
   root to: 'clothes#index'
   get "/clothes", to: "clothes#index"
+  get '/clothes/new', to: 'clothes#new'
+  post 'clothes' => 'clothes#create'
   resources :clothes
+
 
 end
